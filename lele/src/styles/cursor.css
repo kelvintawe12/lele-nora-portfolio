@@ -1,0 +1,11 @@
+* {
+  cursor: none !important;
+}
+@media (max-width: 768px) {
+  * {
+    cursor: auto !important;
+  }
+  .custom-cursor {
+    display: none !important;
+  }
+}
