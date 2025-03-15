@@ -1,6 +1,7 @@
 [build]
+  base = "lele" 
   command = "npm run build"
-  publish = "dist"
+  publish = "lele/dist"
 
 [[redirects]]
   from = "/*"
